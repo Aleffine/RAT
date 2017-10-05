@@ -1,4 +1,6 @@
-
+-/* 
+Exchange between friend cr4sh for this for Socks5
+-*/ 
 //-------------------------------------------------------------------------------------- 
 #define _WIN32_WINNT 0x0500 
 #include <windows.h> 
